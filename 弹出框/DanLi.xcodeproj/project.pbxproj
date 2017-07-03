@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		120D127897F1D63D17B6272B /* libPods-DanLi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C00F2EF04F7416B07BCF7B70 /* libPods-DanLi.a */; };
+		FE44F8551EEA7DC00045C5AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE44F8541EEA7DC00045C5AF /* main.m */; };
+		FE44F8581EEA7DC00045C5AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE44F8571EEA7DC00045C5AF /* AppDelegate.m */; };
+		FE44F85B1EEA7DC00045C5AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE44F85A1EEA7DC00045C5AF /* ViewController.m */; };
+		FE44F85E1EEA7DC00045C5AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE44F85C1EEA7DC00045C5AF /* Main.storyboard */; };
+		FE44F8601EEA7DC00045C5AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE44F85F1EEA7DC00045C5AF /* Assets.xcassets */; };
+		FE44F8631EEA7DC00045C5AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE44F8611EEA7DC00045C5AF /* LaunchScreen.storyboard */; };
+		FE44F86E1EEA7DC00045C5AF /* DanLiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE44F86D1EEA7DC00045C5AF /* DanLiTests.m */; };
+		FE44F8791EEA7DC00045C5AF /* DanLiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE44F8781EEA7DC00045C5AF /* DanLiUITests.m */; };
+		FE44F88C1EEA85400045C5AF /* MMAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE44F88A1EEA85400045C5AF /* MMAlertView.m */; };
+		FE44F88E1EEA8AD80045C5AF /* timg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE44F88D1EEA8AD80045C5AF /* timg.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE44F86A1EEA7DC00045C5AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE44F8481EEA7DC00045C5AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE44F84F1EEA7DC00045C5AF;
+			remoteInfo = DanLi;
+		};
+		FE44F8751EEA7DC00045C5AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE44F8481EEA7DC00045C5AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE44F84F1EEA7DC00045C5AF;
+			remoteInfo = DanLi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B60CF9F7BDC969CEC3A3FC52 /* Pods-DanLi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanLi.release.xcconfig"; path = "Pods/Target Support Files/Pods-DanLi/Pods-DanLi.release.xcconfig"; sourceTree = "<group>"; };
+		C00F2EF04F7416B07BCF7B70 /* libPods-DanLi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DanLi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4F40636B8FF462CD1173751 /* Pods-DanLi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanLi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DanLi/Pods-DanLi.debug.xcconfig"; sourceTree = "<group>"; };
+		FE44F8501EEA7DC00045C5AF /* DanLi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanLi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE44F8541EEA7DC00045C5AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE44F8561EEA7DC00045C5AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE44F8571EEA7DC00045C5AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE44F8591EEA7DC00045C5AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE44F85A1EEA7DC00045C5AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE44F85D1EEA7DC00045C5AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE44F85F1EEA7DC00045C5AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE44F8621EEA7DC00045C5AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE44F8641EEA7DC00045C5AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE44F8691EEA7DC00045C5AF /* DanLiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DanLiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE44F86D1EEA7DC00045C5AF /* DanLiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DanLiTests.m; sourceTree = "<group>"; };
+		FE44F86F1EEA7DC00045C5AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE44F8741EEA7DC00045C5AF /* DanLiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DanLiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE44F8781EEA7DC00045C5AF /* DanLiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DanLiUITests.m; sourceTree = "<group>"; };
+		FE44F87A1EEA7DC00045C5AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE44F8891EEA85400045C5AF /* MMAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMAlertView.h; sourceTree = "<group>"; };
+		FE44F88A1EEA85400045C5AF /* MMAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMAlertView.m; sourceTree = "<group>"; };
+		FE44F88B1EEA85400045C5AF /* seer.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = seer.pch; sourceTree = "<group>"; };
+		FE44F88D1EEA8AD80045C5AF /* timg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE44F84D1EEA7DC00045C5AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120D127897F1D63D17B6272B /* libPods-DanLi.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE44F8661EEA7DC00045C5AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE44F8711EEA7DC00045C5AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3323ED95C19F8C6BE76585ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4F40636B8FF462CD1173751 /* Pods-DanLi.debug.xcconfig */,
+				B60CF9F7BDC969CEC3A3FC52 /* Pods-DanLi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC3607DD248DAB08ED5F940C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C00F2EF04F7416B07BCF7B70 /* libPods-DanLi.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE44F8471EEA7DC00045C5AF = {
+			isa = PBXGroup;
+			children = (
+				FE44F8521EEA7DC00045C5AF /* DanLi */,
+				FE44F86C1EEA7DC00045C5AF /* DanLiTests */,
+				FE44F8771EEA7DC00045C5AF /* DanLiUITests */,
+				FE44F8511EEA7DC00045C5AF /* Products */,
+				3323ED95C19F8C6BE76585ED /* Pods */,
+				EC3607DD248DAB08ED5F940C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FE44F8511EEA7DC00045C5AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE44F8501EEA7DC00045C5AF /* DanLi.app */,
+				FE44F8691EEA7DC00045C5AF /* DanLiTests.xctest */,
+				FE44F8741EEA7DC00045C5AF /* DanLiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE44F8521EEA7DC00045C5AF /* DanLi */ = {
+			isa = PBXGroup;
+			children = (
+				FE44F88D1EEA8AD80045C5AF /* timg.jpg */,
+				FE44F8561EEA7DC00045C5AF /* AppDelegate.h */,
+				FE44F8571EEA7DC00045C5AF /* AppDelegate.m */,
+				FE44F8591EEA7DC00045C5AF /* ViewController.h */,
+				FE44F85A1EEA7DC00045C5AF /* ViewController.m */,
+				FE44F8891EEA85400045C5AF /* MMAlertView.h */,
+				FE44F88A1EEA85400045C5AF /* MMAlertView.m */,
+				FE44F88B1EEA85400045C5AF /* seer.pch */,
+				FE44F85C1EEA7DC00045C5AF /* Main.storyboard */,
+				FE44F85F1EEA7DC00045C5AF /* Assets.xcassets */,
+				FE44F8611EEA7DC00045C5AF /* LaunchScreen.storyboard */,
+				FE44F8641EEA7DC00045C5AF /* Info.plist */,
+				FE44F8531EEA7DC00045C5AF /* Supporting Files */,
+			);
+			path = DanLi;
+			sourceTree = "<group>";
+		};
+		FE44F8531EEA7DC00045C5AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE44F8541EEA7DC00045C5AF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE44F86C1EEA7DC00045C5AF /* DanLiTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE44F86D1EEA7DC00045C5AF /* DanLiTests.m */,
+				FE44F86F1EEA7DC00045C5AF /* Info.plist */,
+			);
+			path = DanLiTests;
+			sourceTree = "<group>";
+		};
+		FE44F8771EEA7DC00045C5AF /* DanLiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE44F8781EEA7DC00045C5AF /* DanLiUITests.m */,
+				FE44F87A1EEA7DC00045C5AF /* Info.plist */,
+			);
+			path = DanLiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE44F84F1EEA7DC00045C5AF /* DanLi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE44F87D1EEA7DC00045C5AF /* Build configuration list for PBXNativeTarget "DanLi" */;
+			buildPhases = (
+				04413077B6DAC791F03143BD /* [CP] Check Pods Manifest.lock */,
+				FE44F84C1EEA7DC00045C5AF /* Sources */,
+				FE44F84D1EEA7DC00045C5AF /* Frameworks */,
+				FE44F84E1EEA7DC00045C5AF /* Resources */,
+				8BBC6698C2E47527D477BAFD /* [CP] Embed Pods Frameworks */,
+				24AA2EB24982E0E71B0C75E7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DanLi;
+			productName = DanLi;
+			productReference = FE44F8501EEA7DC00045C5AF /* DanLi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE44F8681EEA7DC00045C5AF /* DanLiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE44F8801EEA7DC00045C5AF /* Build configuration list for PBXNativeTarget "DanLiTests" */;
+			buildPhases = (
+				FE44F8651EEA7DC00045C5AF /* Sources */,
+				FE44F8661EEA7DC00045C5AF /* Frameworks */,
+				FE44F8671EEA7DC00045C5AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE44F86B1EEA7DC00045C5AF /* PBXTargetDependency */,
+			);
+			name = DanLiTests;
+			productName = DanLiTests;
+			productReference = FE44F8691EEA7DC00045C5AF /* DanLiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE44F8731EEA7DC00045C5AF /* DanLiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE44F8831EEA7DC00045C5AF /* Build configuration list for PBXNativeTarget "DanLiUITests" */;
+			buildPhases = (
+				FE44F8701EEA7DC00045C5AF /* Sources */,
+				FE44F8711EEA7DC00045C5AF /* Frameworks */,
+				FE44F8721EEA7DC00045C5AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE44F8761EEA7DC00045C5AF /* PBXTargetDependency */,
+			);
+			name = DanLiUITests;
+			productName = DanLiUITests;
+			productReference = FE44F8741EEA7DC00045C5AF /* DanLiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE44F8481EEA7DC00045C5AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Qu ZhongLiang";
+				TargetAttributes = {
+					FE44F84F1EEA7DC00045C5AF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 6M26YT55JE;
+						ProvisioningStyle = Automatic;
+					};
+					FE44F8681EEA7DC00045C5AF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 6M26YT55JE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FE44F84F1EEA7DC00045C5AF;
+					};
+					FE44F8731EEA7DC00045C5AF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 6M26YT55JE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FE44F84F1EEA7DC00045C5AF;
+					};
+				};
+			};
+			buildConfigurationList = FE44F84B1EEA7DC00045C5AF /* Build configuration list for PBXProject "DanLi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE44F8471EEA7DC00045C5AF;
+			productRefGroup = FE44F8511EEA7DC00045C5AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE44F84F1EEA7DC00045C5AF /* DanLi */,
+				FE44F8681EEA7DC00045C5AF /* DanLiTests */,
+				FE44F8731EEA7DC00045C5AF /* DanLiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE44F84E1EEA7DC00045C5AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE44F88E1EEA8AD80045C5AF /* timg.jpg in Resources */,
+				FE44F8631EEA7DC00045C5AF /* LaunchScreen.storyboard in Resources */,
+				FE44F8601EEA7DC00045C5AF /* Assets.xcassets in Resources */,
+				FE44F85E1EEA7DC00045C5AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE44F8671EEA7DC00045C5AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE44F8721EEA7DC00045C5AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04413077B6DAC791F03143BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		24AA2EB24982E0E71B0C75E7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DanLi/Pods-DanLi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BBC6698C2E47527D477BAFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DanLi/Pods-DanLi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE44F84C1EEA7DC00045C5AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE44F85B1EEA7DC00045C5AF /* ViewController.m in Sources */,
+				FE44F8581EEA7DC00045C5AF /* AppDelegate.m in Sources */,
+				FE44F8551EEA7DC00045C5AF /* main.m in Sources */,
+				FE44F88C1EEA85400045C5AF /* MMAlertView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE44F8651EEA7DC00045C5AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE44F86E1EEA7DC00045C5AF /* DanLiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE44F8701EEA7DC00045C5AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE44F8791EEA7DC00045C5AF /* DanLiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE44F86B1EEA7DC00045C5AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE44F84F1EEA7DC00045C5AF /* DanLi */;
+			targetProxy = FE44F86A1EEA7DC00045C5AF /* PBXContainerItemProxy */;
+		};
+		FE44F8761EEA7DC00045C5AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE44F84F1EEA7DC00045C5AF /* DanLi */;
+			targetProxy = FE44F8751EEA7DC00045C5AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE44F85C1EEA7DC00045C5AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE44F85D1EEA7DC00045C5AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE44F8611EEA7DC00045C5AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE44F8621EEA7DC00045C5AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE44F87B1EEA7DC00045C5AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE44F87C1EEA7DC00045C5AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE44F87E1EEA7DC00045C5AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4F40636B8FF462CD1173751 /* Pods-DanLi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6M26YT55JE;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DanLi/seer.pch";
+				INFOPLIST_FILE = DanLi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongke.DanLi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE44F87F1EEA7DC00045C5AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B60CF9F7BDC969CEC3A3FC52 /* Pods-DanLi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6M26YT55JE;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DanLi/seer.pch";
+				INFOPLIST_FILE = DanLi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongke.DanLi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FE44F8811EEA7DC00045C5AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6M26YT55JE;
+				INFOPLIST_FILE = DanLiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongke.DanLiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DanLi.app/DanLi";
+			};
+			name = Debug;
+		};
+		FE44F8821EEA7DC00045C5AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6M26YT55JE;
+				INFOPLIST_FILE = DanLiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongke.DanLiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DanLi.app/DanLi";
+			};
+			name = Release;
+		};
+		FE44F8841EEA7DC00045C5AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6M26YT55JE;
+				INFOPLIST_FILE = DanLiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongke.DanLiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DanLi;
+			};
+			name = Debug;
+		};
+		FE44F8851EEA7DC00045C5AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6M26YT55JE;
+				INFOPLIST_FILE = DanLiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongke.DanLiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DanLi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE44F84B1EEA7DC00045C5AF /* Build configuration list for PBXProject "DanLi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE44F87B1EEA7DC00045C5AF /* Debug */,
+				FE44F87C1EEA7DC00045C5AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE44F87D1EEA7DC00045C5AF /* Build configuration list for PBXNativeTarget "DanLi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE44F87E1EEA7DC00045C5AF /* Debug */,
+				FE44F87F1EEA7DC00045C5AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE44F8801EEA7DC00045C5AF /* Build configuration list for PBXNativeTarget "DanLiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE44F8811EEA7DC00045C5AF /* Debug */,
+				FE44F8821EEA7DC00045C5AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE44F8831EEA7DC00045C5AF /* Build configuration list for PBXNativeTarget "DanLiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE44F8841EEA7DC00045C5AF /* Debug */,
+				FE44F8851EEA7DC00045C5AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE44F8481EEA7DC00045C5AF /* Project object */;
+}
