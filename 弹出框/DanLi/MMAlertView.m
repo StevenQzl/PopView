@@ -135,6 +135,7 @@
 
 -(void)closeShandow{
     [self removeFromSuperview];
+    NSLog(@"测试代码");
 }
 
 -(void)nextActionEv:(Action)action{
