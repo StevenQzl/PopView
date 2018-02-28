@@ -136,6 +136,7 @@
 -(void)closeShandow{
     [self removeFromSuperview];
     NSLog(@"测试代码");
+    NSLog(@"你很好");
 }
 
 -(void)nextActionEv:(Action)action{
@@ -145,7 +146,7 @@
     NSLog(@"hehhe");
     NSLog(@"设么,额");
     NSLog(@"你好");
-    NSLog(@"你也很好")；
+    NSLog(@"你也很好");
 }
 
 
