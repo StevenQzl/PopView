@@ -141,6 +141,9 @@
 -(void)nextActionEv:(Action)action{
     self.nextAction =action;
     NSLog(@"我是甲开发人员");
+    NSLog(@"我在分支上进行了操作");
+    NSLog(@"hehhe");
+    NSLog(@"设么,额");
 }
 
 
