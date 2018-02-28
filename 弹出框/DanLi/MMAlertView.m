@@ -145,6 +145,7 @@
     NSLog(@"hehhe");
     NSLog(@"设么,额");
     NSLog(@"你好");
+    NSLog(@"大家好才是真的好");
 }
 
 
