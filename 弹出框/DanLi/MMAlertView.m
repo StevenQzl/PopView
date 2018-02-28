@@ -140,7 +140,7 @@
 
 -(void)nextActionEv:(Action)action{
     self.nextAction =action;
-    
+    NSLog(@"我是甲开发人员");
 }
 
 
